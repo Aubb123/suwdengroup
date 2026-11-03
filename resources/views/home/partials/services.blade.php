@@ -251,6 +251,45 @@
                 </div>
                 <!-- Service Item End -->
             </div>
+
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="1.75s">
+                    <!-- Service Image Start -->
+                    <div class="service-image" data-cursor-text="View">
+                        <a href="#">
+                            <figure>
+                                <img src="{{ asset(!\App::environment('local') ? 'public' : '' . 'storage/home/assets/images/services/07.PNG') }}"
+                                    alt="Construction d'ascenseurs">
+                            </figure>
+                        </a>
+                    </div>
+                    <!-- Service Image End -->
+
+                    <!-- Service Body Start -->
+                    <div class="service-body">
+                        <!-- Service Body Title Start -->
+                        <div class="service-body-title">
+                            <h3>Construction d'ascenseurs</h3>
+                        </div>
+                        <!-- Service Body Title End -->
+
+                        <!-- Service Content Start -->
+                        <div class="service-content">
+                            <p>
+                                Nous concevons et installons des ascenseurs pour tout type d'immeuble : résidentiel, commercial, tour de bureaux ou bâtiment industriel. 
+                                Nos équipes qualifiées assurent la conformité aux normes de sécurité en vigueur, la fiabilité des installations et un accompagnement complet de l'étude technique à la mise en service.
+                            </p>
+                            <div class="service-content-footer">
+                                <a href="#" class="readmore-btn">Suwdengroup</a>
+                            </div>
+                        </div>
+                        <!-- Service Content End -->
+                    </div>
+                    <!-- Service Body End -->
+                </div>
+                <!-- Service Item End -->
+            </div>
         </div>
         
         @if(Route::currentRouteName() == 'home.services')
