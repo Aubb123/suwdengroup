@@ -82,8 +82,8 @@
                                     alt="">
                             </div>
                             <!-- Icon Box End -->
-                            <p>suwdengroup@gmail.com</p>
-                            <p>pinheiro@suwdengroup.se</p>
+                            <p>suwdengroup@suwdengroup.se</p>
+                            <p>contact@suwdengroup.se</p>
                         </div>
                         <!-- Info Box End -->
 

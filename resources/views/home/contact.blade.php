@@ -31,8 +31,8 @@
                         </div>
                         <div class="contact-info-body">
                             <h3>Écrivez-nous</h3>
-                            <p>suwdengroup@gmail.com</p>
-                            <p>pinheiro@suwdengroup.se</p>
+                            <p>suwdengroup@suwdengroup.se</p>
+                            <p>contact@suwdengroup.se</p>
                         </div>
                     </div>
                     <!-- Contact Info Item End -->

@@ -19,7 +19,7 @@ class ContactController extends Controller
             'message' => ['required', 'max:10000'],
         ]);
 
-        $email = 'pinheiro@suwdengroup.se';
+        $email = 'contact@suwdengroup.se';
         Mail::to($email)->send(new EmailContact($validatedData));
 
         return redirect()->back()->with('success', 'Merci de nous avoir contactés ! Nous avons bien reçu votre message, un retour vous sera fait.');
